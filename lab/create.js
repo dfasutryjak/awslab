@@ -9,6 +9,8 @@ var task =  function(request, callback){
 	  Monitoring: {
 		Enabled: false /* required */
 	  },
+		InstanceType: 't1.micro',
+
 	};
 
 	var ec2 = new AWS.EC2();
